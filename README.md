@@ -1,4 +1,4 @@
-# Postgres com Docker
+# Postgres com Docker via WSL
 
 Após instalação do Docker, testar a versão do mesmo.
 
