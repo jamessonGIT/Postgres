@@ -34,5 +34,6 @@ CREATE TABLE public.usuarios (
 Listar as tabelas existentes no banco:
 > postgres=# \dt
 
-Após essas estapas verificar a conexão local com o DBeaver e replicação do banco no mesmo.
+#DBeaver
+Após estas estapas verificar a conexão local com o DBeaver e replicação do banco no mesmo.
 
