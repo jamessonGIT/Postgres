@@ -34,6 +34,13 @@ CREATE TABLE public.usuarios (
 Listar as tabelas existentes no banco:
 > postgres=# \dt
 
-#DBeaver
-Após estas estapas verificar a conexão local com o DBeaver e replicação do banco no mesmo.
+# DBeaver e Backup
+Após estas estapas verificar a conexão local com o DBeaver e replicação do banco no mesmo. 
 
+Através do comando abaixo é possível realizar o backup em sql da banco.
+
+>  docker cp meu_postgres:/backup.sql ./Downloads/backup.sql
+
+# Encerrando o Postgres
+
+> docker stop (id do container)
